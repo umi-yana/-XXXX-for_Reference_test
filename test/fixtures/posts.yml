@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  post_tag_id: 1
+  post_body: MyText
+  select_a: MyString
+  select_b: MyString
+
+two:
+  post_tag_id: 1
+  post_body: MyText
+  select_a: MyString
+  select_b: MyString

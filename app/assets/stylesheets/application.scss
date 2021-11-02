@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+h1 {
+  font-family: Georgia, serif;
+  height: 90px;
+  padding-top: 40px;
+}
+
