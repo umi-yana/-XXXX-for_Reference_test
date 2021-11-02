@@ -1,2 +1,21 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col r">
+      <div class="mx-auto mt-5" style="width: 300px; height: 100vh;">
+        <div class="text-center">
+        <h1>for_Refalence</h1>
+          <p>あなたの悩みに対して</p>
+          <p>ちょっとだけ手助けをします</p>
+          
+        <%= link_to "新規登録",homes_about_path,class:'btn btn-primary btn-lg mt-5 w-50' %> 
+        <p><a class="btn btn-primary btn-lg mt-2 w-50" href="#" role="button">ログイン</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+    <%= image_tag 'top-image.jpg',size:"900x550" %>
+    </div>
+  </div>
+</div>
+
